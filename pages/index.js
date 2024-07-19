@@ -41,7 +41,7 @@ export default function () {
           } >
             <Card>
               <Statistic
-                title="connectedMiners"
+                title="Connected Miners"
                 value={app[0].poolStats.connectedMiners || 0}
                 valueStyle={{ color: '#3f8600' }}
               />
@@ -52,7 +52,7 @@ export default function () {
           } >
             <Card>
               <Statistic
-                title="poolHashrate"
+                title="Pool Hashrate"
                 value={_formatter(app[0].poolStats.poolHashrate || 0, 2, 'H/s')}
                 valueStyle={{ color: '#cf1322' }}
               />
@@ -63,7 +63,7 @@ export default function () {
           } >
             <Card>
               <Statistic
-                title="poolFeePercent"
+                title="Pool Fee"
                 value={app[0].poolFeePercent || 0, '1 %'}
                 valueStyle={{ color: '#3f8600' }}
               />
@@ -74,7 +74,7 @@ export default function () {
           } >
             <Card>
               <Statistic
-                title="totalPaid"
+                title="Total Paid"
                 value={app[0].totalPaid || 0}
                 valueStyle={{ color: '#3f8600' }}
               />
@@ -85,7 +85,7 @@ export default function () {
           } >
             <Card>
               <Statistic
-                title="totalBlocks"
+                title="Total Blocks"
                 value={app[0].totalBlocks || 0}
                 valueStyle={{ color: '#cf1322' }}
               />
@@ -96,7 +96,7 @@ export default function () {
           } >
             <Card>
               <Statistic
-                title="poolEffort"
+                title="Pool Effort"
                 value={app[0].poolEffort || 0}
                 valueStyle={{ color: '#3f8600' }}
               />
@@ -111,7 +111,7 @@ export default function () {
           } >
             <Card>
               <Statistic
-                title="networkHashrate"
+                title="Network Hashrate"
                 value={_formatter(app[0].networkStats.networkHashrate || 0, 2, 'H/s')}
                 valueStyle={{ color: '#3f8600' }}
               />
@@ -122,7 +122,7 @@ export default function () {
           } >
             <Card>
               <Statistic
-                title="networkDifficulty"
+                title="Network Difficulty"
                 value={_formatter(app[0].networkStats.networkDifficulty || 0, 2, 'H/s')}
                 valueStyle={{ color: '#3f8600' }}
               />
@@ -137,7 +137,7 @@ export default function () {
           } >
             <Card>
               <Statistic
-                title="minimumPayment"
+                title="Minimum Payment"
                 value={app[0].paymentProcessing.minimumPayment || 0}
                 valueStyle={{ color: '#3f8600' }}
               />
@@ -148,7 +148,7 @@ export default function () {
           } >
             <Card>
               <Statistic
-                title="payoutScheme"
+                title="Payout Scheme"
                 value={app[0].paymentProcessing.payoutScheme || 0}
                 valueStyle={{ color: '#3f8600' }}
               />
@@ -159,7 +159,7 @@ export default function () {
           } >
             <Card>
               <Statistic
-                title="coin"
+                title="Coin"
                 value={app[0].coin.name || 0}
                 valueStyle={{ color: '#3f8600' }}
               />
@@ -170,7 +170,7 @@ export default function () {
           } >
             <Card>
               <Statistic
-                title="algorithm"
+                title="Algorithm"
                 value={app[0].coin.algorithm || 0}
                 valueStyle={{ color: '#3f8600' }}
               />
