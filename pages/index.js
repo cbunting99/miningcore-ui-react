@@ -64,7 +64,7 @@ export default function () {
             <Card>
               <Statistic
                 title="poolFeePercent"
-                value={app[0].poolFeePercent || 0}
+                value={app[0].poolFeePercent || 0, '%'}
                 valueStyle={{ color: '#3f8600' }}
               />
             </Card>

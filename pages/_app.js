@@ -12,7 +12,7 @@ const menuList = [
   { name: 'Miners', path: '/topMiners' },
   { name: 'pool performance', path: '/poolPerformance' },
   { name: 'Blocks', path: '/currentBlocks' },
-  { name: 'payments', path: '/payments' },
+  { name: 'Payments', path: '/payments' },
   { name: 'Stats', path: '/statistics' },
   { name: 'paymentDetilsList', path: '/paymentDetilsList' },
   { name: 'performance', path: '/performance' },
