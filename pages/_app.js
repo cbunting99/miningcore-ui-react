@@ -10,12 +10,9 @@ import { useEffect } from 'react'
 const menuList = [
   { name: 'Homepage', path: '/' },
   { name: 'Miners', path: '/topMiners' },
-  { name: 'pool performance', path: '/poolPerformance' },
+  { name: 'Stats', path: '/statistics' },
   { name: 'Blocks', path: '/currentBlocks' },
   { name: 'Payments', path: '/payments' },
-  { name: 'Stats', path: '/statistics' },
-  { name: 'paymentDetilsList', path: '/paymentDetilsList' },
-  { name: 'performance', path: '/performance' },
 ]
 function MyApp ({ Component, pageProps, ReduxStore }) {
   return (
